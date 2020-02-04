@@ -33,6 +33,7 @@
         </el-header>
         <el-main>
           <router-view/>
+          <footers></footers>
         </el-main>
       </el-container>
     </el-container>
@@ -54,7 +55,11 @@
 </template>
 
 <script>
+import Footers from '../components/footer'
 export default {
+  components: {
+    Footers
+  },
   data () {
     return {
       selectPath: '',

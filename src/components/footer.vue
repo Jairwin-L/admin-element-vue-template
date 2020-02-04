@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="footer_main">
-      <div class="footer_author">Design By <a href="https://jairwin.cn" target="_blank" rel="noopener noreferrer nofollow">Jairwin</a></div>
+      <div class="footer_author">Design By <a href="https://jairwin.cn" target="_blank" rel="noopener noreferrer nofollow">Jairwin</a> & <a href="https://github.com/EJairwin" target="_blank" rel="noopener noreferrer nofollow">Github</a></div>
     </div>
   </footer>
 </template>
