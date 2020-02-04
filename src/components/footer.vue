@@ -1,7 +1,10 @@
 <template>
   <footer>
     <div class="footer_main">
-      <div class="footer_author">Design By <a href="https://jairwin.cn" target="_blank" rel="noopener noreferrer nofollow">Jairwin</a> & <a href="https://github.com/EJairwin" target="_blank" rel="noopener noreferrer nofollow">Github</a></div>
+        <p>Copyright © {{year}} All Rights Reserved</p>
+        <p>Design By <a href="https://jairwin.cn" target="_blank" rel="noopener noreferrer nofollow">Jairwin</a> & <a href="https://github.com/EJairwin" target="_blank" rel="noopener noreferrer nofollow">Github</a></p>
+      <!-- <div class="footer_author">
+      </div> -->
     </div>
   </footer>
 </template>
@@ -27,14 +30,12 @@ footer {
     height: 100%;
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     flex-direction: column;
-    color: #fff;
-    .footer_author {
+    color: #333;
+    a {
       color: #333;
-      a {
-        color: #333;
-      }
     }
   }
   @media screen and (max-width: 640px) {
