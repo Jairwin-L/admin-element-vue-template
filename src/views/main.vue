@@ -9,6 +9,7 @@
           :default-active="selectPath"
           :router="true"
           class="el-menu-vertical-demo"
+          background-color="#041527"
           @select="onSelectChange">
           <el-menu-item index="/home">
             <i class="el-icon-menu"></i>
@@ -96,6 +97,7 @@ export default {
     background: #fff;
     width: 175px !important;
     overflow-x: hidden !important;
+    background: #041527;
     .el-menu-vertical-demo {
       min-height: 830px;
     }

@@ -2,9 +2,7 @@
   <footer>
     <div class="footer_main">
         <p>Copyright © {{year}} All Rights Reserved</p>
-        <p>Design By <a href="https://jairwin.cn" target="_blank" rel="noopener noreferrer nofollow">Jairwin</a> & <a href="https://github.com/EJairwin" target="_blank" rel="noopener noreferrer nofollow">Github</a></p>
-      <!-- <div class="footer_author">
-      </div> -->
+        <p>Design By <a href="https://jairwin.cn" target="_blank" rel="noopener noreferrer nofollow">Jairwin</a> & <a href="https://github.com/Jairwin-L" target="_blank" rel="noopener noreferrer nofollow">Github</a></p>
     </div>
   </footer>
 </template>
